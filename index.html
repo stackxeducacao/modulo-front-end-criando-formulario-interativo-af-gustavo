@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta>
+    <meta charset="UTF-8">
+    <title>Tarefa 1</title>
+</head>
+
+<body>
+    <form action=""> <!--Por meio da tag 'form' a esquerda, criou-se um formulário.-->
+        <!--Para as três primeiras tags de 'input' abaixo foram definidos os tipos como 'text' e o placeholder para orientar o usuário a inserir as devidas informações nos campos.
+         Todas elas foram precedidas de tags 'label' para nomear os campos a serem preenchidos. Na terceira tag 'input' for incluído o parâmetro 'required' para indicar que o preenchimento
+         desse campo é obrigatório.-->
+        <label for="name">Nome</label>
+        <input type="text" placeholder="Insira seu nome" id="name" name="name"><br><br>
+        <label for="tel">Telefone</label>
+        <input type="text" placeholder="Insira seu e-mail" id="tel" name="tel"><br><br>
+        <label for="email">E-mail</label>
+        <input type="text" placeholder="Insira seu e-mail" id="email" name="email" required><br><br>
+        <!--Abaixo foram inseridas tags 'input' do tipo 'checkbox' para dar o usuário a possibilidade de selecionar determinadas opções. Todas essas tags foram seguidas por tags 'input'
+        para que o nome da opção a ser selecionada aparecesse na direita do checkbox.-->
+        <label for="">Opções</label><br><br>
+        <input type="checkbox" id="option1" name="option1">
+        <label for="option1"></label>Opção 1<br><br>
+        <input type="checkbox" id="option2" name="option2">
+        <label for="option2"></label>Opção 2<br><br>
+        <input type="checkbox" id="option3" name="option3">
+        <label for="option3"></label>Opção 3<br><br>
+        <input type="checkbox" id="option4" name="option4">
+        <label for="option4">Opção 4</label><br><br>
+        <input type="checkbox" id="option5" name="option5">
+        <label for="option5"></label>Opção 5<br><br>
+        <!--A próxima tag de 'input' utilizada também foi do tipo 'text'. Seu objetivo é permitir que o usuário possa registrar uma mensagem. O parâmetro 'required' foi utilizado para 
+        tornar esse campo obrigatório.-->
+        <label for="message">Mensagem</label>
+        <input type="text" placeholder="Digite sua mensagem" id="message" name="message" required><br><br>
+        <!--Por fim, para última tag 'input' foi escolhido o tipo 'submit' para criar um botão de envio das informações inseridas no formulário.-->
+        <input type="submit">
+    </form>
+</body>
+
+</html>
